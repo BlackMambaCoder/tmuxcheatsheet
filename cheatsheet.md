@@ -9,6 +9,15 @@
 
     tmux new -s mySession
 
+## List sessions
+
+    tmux ls
+
+## Attach to existing session
+
+    tmux attach -t mySession
+    tmux attach -t 13 # if the session is created without a name, it gets a number
+
 ## Windows (tabs)
 
     ctrl+b c        New tab
