@@ -40,7 +40,7 @@
 
     Go back to your window where the other pane is (be in that pane)
     Enter settings again
-    Enter "join-pane -t0:1"	Moves the current pane from window "0" to the new window "1"
+    Enter "join-pane -t0:1"	Moves the current pane from session "0" to the new window "1"
 
 ## General commands
 
