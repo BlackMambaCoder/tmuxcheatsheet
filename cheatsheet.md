@@ -33,6 +33,15 @@
     ctrl+b x        Close (kill) pane
     ctrl+b z        Zoom pane -> "converts" pane into window and backwards
 
+### Move two panes to a new window (tab)
+
+    Enter settings (ctrl+b :)
+    Enter "break-pane" 		Moves the pane to a new window
+
+    Go back to your window where the other pane is (be in that pane)
+    Enter settings again
+    Enter "join-pane -t0:1"	Moves the current pane from window "0" to the new window "1"
+
 ## General commands
 
     ctrl+b t        Show clock
